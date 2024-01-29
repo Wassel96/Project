@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.mobile-img{
+  width: 50%;
+  height: 400px;
+  background-image: url('Nexans_schwarz.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid white;
+}
+/* Style général de la page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal qui occupe toute la hauteur et la largeur de la page */
+.login-box {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/* Conteneur de droite qui contient le formulaire de connexion */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ECF6FE;
+}
+
+/* Titre du formulaire */
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #04AA6D;
+  margin-bottom: 20px;
+}
+
+/* Conteneur du formulaire */
+.login-form {
+  width: 80%;
+  max-width: 400px;
+  border: 3px solid #f1f1f1;
+  padding: 20px;
+}
+
+/* Style des champs de saisie */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+/* Style des étiquettes */
+h4 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+}
+
+/* Style du bouton de connexion */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Effet au survol du bouton */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Style du message d'erreur */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: red;
+  text-align: center;
+}

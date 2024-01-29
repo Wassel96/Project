@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dashboard{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  min-height: 100dvh;
+}
+.dashboard aside{
+  background-color: rgb(67, 67, 255);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dashboard aside img{
+  width: 100px;
+  object-fit: cover;
+  max-width: 100%;
+
+}
+.dashboard aside ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dashboard aside a{
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.content{
+  max-height: 100dvh;
+  height: 100dvh;
+  overflow-y: auto;
+}
